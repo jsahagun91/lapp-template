@@ -1,6 +1,6 @@
 # Lightning App Template
 
-Jose 
+Jose Sahagun
 
 
 A simple project template to build your ⚡ Lightning Apps on. Authentication, WebLN, QR-Code fallbacks and more! 
