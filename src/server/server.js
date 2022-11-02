@@ -4,13 +4,13 @@ const bodyParser = require("body-parser");
 const { setupAuth } = require("./auth.js");
 const { setupPay } = require("./pay.js");
 
-// Validate configuration
-if (!process.env.ALBY_LIGHTNING_ADDRESS) {
-  console.error(
-    "You need to configure your environment variables first. Check out the README file!"
-  );
-  process.exit(1);
-}
+// // Validate configuration
+// if (!process.env.ALBY_LIGHTNING_ADDRESS) {
+//   console.error(
+//     "You need to configure your environment variables first. Check out the README file!"
+//   );
+//   process.exit(1);
+// }
 
 const app = express();
 
